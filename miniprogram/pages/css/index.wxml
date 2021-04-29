@@ -1,0 +1,27 @@
+<!--pages/index/css.wxml-->
+
+<view class="container">
+  <view class="text">
+    <text class="text-sub">{{text}}</text>
+  </view>
+  
+  <view class="tencent-logo">
+    <image class="tencent-img" src="../../images/head.png"></image>
+  </view>
+
+  <view class="tencent-sub">
+    <image class="tencent-sub-left" src="../../images/50x50.png"></image>
+    <image class="tencent-sub-center" src="../../images/150x100.png"></image>
+    <image class="tencent-sub-right" src="../../images/80x45.png"></image>
+  </view>
+
+  <view class="foot">
+    <view class="upload">
+      <image class="upload-img" src="../../images/cloud upload.png"></image>
+      <text class="upload-text">上传</text>
+    </view>
+    
+    <view class="line"></view>
+  </view>
+</view>
+

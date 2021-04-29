@@ -1,0 +1,50 @@
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+  box-sizing: border-box;
+} 
+.text{
+  width: 616rpx;
+  margin-top: 60rpx;
+  text-align:center;
+}
+.text-sub{
+  color: rgba(170, 170, 170, 1);
+  font-size: 14px;
+}
+
+.tencent-logo{
+  margin-top: 60rpx;
+}
+.tencent-img{
+  height: 400rpx;
+  width:600rpx;
+}
+
+.tencent-sub{
+  margin-top: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.tencent-sub-left{
+  height: 100rpx;
+  width: 100rpx;
+}
+.tencent-sub-center{
+  height: 200rpx;
+  width: 300rpx;
+}
+.tencent-sub-right{
+  height: 90rpx;
+  width: 160rpx;
+}

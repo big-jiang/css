@@ -1,0 +1,42 @@
+/**app.wxss**/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+} 
+
+.foot{
+  position: absolute;
+  height:188rpx;
+  width: 100%;
+  background-color: #3172EE;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.upload{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40rpx;
+  margin-bottom: 60rpx;
+}
+.upload-img{
+  height: 21px;
+  width: 27px;
+  
+}
+.upload-text{
+  color:#ffffff;
+  font-size: 18px;
+  margin-left: 24rpx;
+  letter-spacing:6px;
+}
+.line{
+  height: 14rpx;
+  width: 370rpx;
+  background-color: #000000;
+  border-radius: 17px;
+}

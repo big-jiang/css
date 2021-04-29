@@ -1,0 +1,30 @@
+/* pages/index/css.wxss */
+
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+  box-sizing: border-box;
+} 
+.text{
+  color: rgba(170, 170, 170, 1);
+  font-size: 14px;
+  margin-top: 60rpx;
+}
+
+.tencent-logo{
+  margin-top: 100rpx;
+}
+.tencent-img{
+  height: 600rpx;
+  width:600rpx;
+}
+
